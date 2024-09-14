@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Steven's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+ul.navigationbar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+li a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    background-color: #333;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.photo {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(HUDE1169.JPEG);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo .overlay {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigtext {
+    position: absolute;
+    display: flex;
+    margin-top: 35px;
+}
+
+
+.maintext {
+    font-size: 50px;
+    color: white;
+    margin-top: 0px;
+    padding: 0px 100px;
+}
+
+.subtext {
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+}
+
+.focalpoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color:#333;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+</style>
+  <body>
+      <div class="nav-bar">
+          <ul class="navigationbar">
+              <li><a class="bar" href="#home">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#work">Work Experience</a></li>
+              <li><a href="contact">Contact</a></li>
+          </ul>
+      </div>
+      <div class="focalpoint">
+        <header class="photo">
+            <div class="w-full focalpoint overlay">
+            <div class="bigtext maintext">Hey, I'm Steven</div>
+            <div class="bigtext subtext">Just a student trying his best to code</div>
+        </header>
+      </div>
+      <div class="body">
+        My name is Steven and I am a student in his second year of Engineering at Wester University. 
+        My field of study is Software and aspire to become a Software Engineer in the near future.
+    </div>
+    <div class="footer">
+        <p></p>
+    </div>
+    </div>
+  </body>
+</html>
